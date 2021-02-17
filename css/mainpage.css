@@ -1,3 +1,7 @@
+/* navigation */
+html {
+  background-color: white;
+}
 body,
 header,
 main {
@@ -7,11 +11,37 @@ main {
 li {
   list-style: none;
 }
-a {
+
+nav a:link {
   text-decoration: none;
   font-family: "neue-haas-grotesk-display";
+  color: black;
+}
+nav a:visited {
+  text-decoration: none;
+  font-family: "neue-haas-grotesk-display";
+  color: black;
+}
+nav a:hover {
+  text-decoration: none;
+  font-family: "neue-haas-grotesk-display";
+  color: black;
+}
+nav a:active {
+  text-decoration: none;
+  font-family: "neue-haas-grotesk-display";
+  color: black;
 }
 
+nav {
+  display: flex;
+  font-family: "neue-haas-grotesk-display";
+  color: black;
+}
+
+.box {
+}
+/*header*/
 h1 {
   font-family: "messapiaregular";
 }
