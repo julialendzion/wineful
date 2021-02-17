@@ -1,4 +1,13 @@
 /* navigation */
+html {
+  background-color: white;
+}
+body,
+header,
+main {
+  background-color: #fff;
+}
+
 li {
   list-style: none;
 }
@@ -31,9 +40,27 @@ nav {
 }
 
 .box {
-  background-color: brown;
 }
 /*header*/
 h1 {
   font-family: "messapiaregular";
+}
+
+.title {
+  position: absolute;
+  margin-left: 11.786vw;
+  margin-top: 24.231vw;
+  font-size: 5.124vw;
+}
+
+.title2 {
+  position: absolute;
+  margin-left: 11.786vw;
+  margin-top: 30.747vw;
+  font-size: 5.124vw;
+}
+
+.bg {
+  margin-top: -10vw;
+  margin-left: 70vw;
 }
