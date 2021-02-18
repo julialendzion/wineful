@@ -15,6 +15,7 @@ li {
 nav a:link {
   text-decoration: none;
   font-family: "neue-haas-grotesk-display";
+  font-size: 1em;
   color: black;
 }
 nav a:visited {
@@ -45,14 +46,18 @@ nav {
 .box1,
 .box2 {
   background-color: white;
-  padding: 14px 50px 14px 50px;
+  padding: 1vw 4vw 1vw 4vw;
   border-style: solid;
-  border-width: 1px 1px 1px 0px;
+  border-width: 0.7px 0.7px 0.7px 0px;
   border-color: black;
 }
-
+.box1:hover,
+.box2:hover {
+  background-color: #f5f0ee;
+  cursor: pointer;
+}
 .box1 {
-  border-width: 1px 1px 1px 1px;
+  border-width: 0.7px 0.7px 0.7px 0.7px;
 }
 
 /*header*/
@@ -63,24 +68,38 @@ h1 {
 .title {
   position: absolute;
   margin-left: 11.786vw;
-  margin-top: 24.231vw;
+  margin-top: 21.231vw;
   font-size: 5.124vw;
 }
 
 .title2 {
   position: absolute;
   margin-left: 11.786vw;
-  margin-top: 30.747vw;
+  margin-top: 27.747vw;
   font-size: 5.124vw;
 }
 
 .bg {
   margin-top: -10vw;
   margin-left: 70vw;
+  width: 26vw;
 }
 
 .wb {
   position: absolute;
   width: 16.471vw;
   margin-left: -21vw;
+}
+
+h2 {
+  font-size: 1.07em;
+  font-weight: normal;
+  font-family: "neue-haas-grotesk-display";
+  text-align: right;
+}
+
+#container {
+  margin-top: -23vw;
+  width: 19em;
+  margin-left: 47vw;
 }
