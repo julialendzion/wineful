@@ -6,7 +6,10 @@ header,
 main {
   background-color: #fff;
 }
-
+body {
+  background-image: url(product_background.svg);
+  background-size: 120%;
+}
 li {
   list-style: none;
 }
