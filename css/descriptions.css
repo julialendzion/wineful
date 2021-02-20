@@ -70,6 +70,12 @@ nav {
   width: 26vw;
 }
 
+.bgpattern {
+  position: absolute;
+  width: 100vw;
+  margin-top: 50vh;
+}
+
 main {
   margin-left: 11.786vw;
   width: 45vw;
