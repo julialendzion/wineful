@@ -89,9 +89,15 @@ h1 {
 
 h2,
 h3,
+h4,
 h5 {
   font-family: "neue-haas-grotesk-display";
   font-weight: 200;
+}
+
+p {
+  font-family: "neue-haas-grotesk-display";
+  font-weight: 100;
 }
 
 #info {
