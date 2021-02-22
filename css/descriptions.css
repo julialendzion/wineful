@@ -64,10 +64,11 @@ nav {
 }
 
 .bg {
+  z-index: 1;
   position: absolute;
-  margin-top: -10vw;
+  margin-top: 10vw;
   margin-left: 70vw;
-  width: 26vw;
+  width: 12vw;
 }
 
 .bgpattern {
@@ -107,4 +108,8 @@ p {
   font-size: 1.1vw;
   letter-spacing: 0.03rem;
   color: #3e3e3e;
+}
+
+footer {
+  height: 20vh;
 }
