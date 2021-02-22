@@ -109,3 +109,7 @@ p {
   letter-spacing: 0.03rem;
   color: #3e3e3e;
 }
+
+footer {
+  height: 20vh;
+}
