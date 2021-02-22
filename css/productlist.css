@@ -2,8 +2,9 @@ html {
   background-color: white;
 }
 body {
-  background-image: url(winelist_background.svg);
-  background-size: 120%;
+  background-image: url(/img/winelistbg.svg);
+  background-size: 145%;
+  background-position-x: -25vw;
 }
 
 li {
@@ -61,11 +62,11 @@ nav {
 
 h1 {
   position: absolute;
-  margin-top: -0.5vw;
-  margin-left: 86vw;
-  font-family: "neue-haas-grotesk-display";
+  margin-top: 1vw;
+  margin-left: 76vw;
+  font-family: "messapiaregular";
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 img {
@@ -85,11 +86,15 @@ article p {
 }
 main {
   justify-content: center;
-  margin-top: 3vw;
+  margin-top: -2vw;
   padding: 3vw;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 240px));
   gap: 2rem;
+}
+
+article {
+  margin-top: 10vh;
 }
 
 .dropdown-content {
