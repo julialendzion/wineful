@@ -91,3 +91,84 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(150px, 240px));
   gap: 2rem;
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 10vw;
+  margin-left: 10vw;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-content div {
+  font-family: "neue-haas-grotesk-display";
+  padding: 1vw;
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 10vw;
+  margin-left: 20vw;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-content2 div {
+  font-family: "neue-haas-grotesk-display";
+  padding: 1vw;
+}
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 10vw;
+  margin-left: 30vw;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-content3 div {
+  font-family: "neue-haas-grotesk-display";
+  padding: 1vw;
+}
+.show {
+  display: block;
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center;
+  top: 12vw;
+  position: fixed;
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+
+  80% {
+    transform: scaleY(1.1);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+header ul {
+  display: flex;
+  margin-left: 10vw;
+  margin-top: 2vw;
+}
+
+#icon3,
+#icon2,
+#icon {
+  width: 10vw;
+  font-family: "neue-haas-grotesk-display";
+}
+
+header li:hover {
+  cursor: pointer;
+}
