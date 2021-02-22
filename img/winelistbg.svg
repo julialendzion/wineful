@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2217.109" height="1999.831" viewBox="0 0 2217.109 1999.831">
+  <g id="Group_19" data-name="Group 19" transform="translate(431.109 -63)">
+    <text id="Pick_your_next_favorite" data-name="Pick   your                next favorite" transform="translate(134 63)" fill="rgba(219,211,194,0.5)" font-size="150" font-family="Messapia-Regular, Messapia" letter-spacing="0.1em" opacity="0.404"><tspan x="0" y="150" xml:space="preserve">Pick   </tspan><tspan x="0" y="300" xml:space="preserve">your                </tspan><tspan x="0" y="450">next </tspan><tspan x="0" y="600">favorite</tspan></text>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(-431.109 1221.429) rotate(-51)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.227">
+      <rect width="491" height="1337" rx="245.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="490" height="1336" rx="245" fill="none"/>
+    </g>
+    <g id="Ellipse_18" data-name="Ellipse 18" transform="translate(364.381 1233.805) rotate(-51)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.227">
+      <ellipse cx="233" cy="234.5" rx="233" ry="234.5" stroke="none"/>
+      <ellipse cx="233" cy="234.5" rx="232.5" ry="234" fill="none"/>
+    </g>
+    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(546.233 1381.066) rotate(-51)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.227">
+      <ellipse cx="233" cy="234" rx="233" ry="234" stroke="none"/>
+      <ellipse cx="233" cy="234" rx="232.5" ry="233.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_19" data-name="Ellipse 19" cx="492" cy="492" r="492" transform="translate(802 546)" fill="#f8f6f3"/>
+  </g>
+</svg>

@@ -64,10 +64,11 @@ nav {
 }
 
 .bg {
+  z-index: 1;
   position: absolute;
-  margin-top: -10vw;
+  margin-top: 10vw;
   margin-left: 70vw;
-  width: 26vw;
+  width: 12vw;
 }
 
 .bgpattern {
