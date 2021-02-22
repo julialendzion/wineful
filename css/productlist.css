@@ -1,5 +1,6 @@
 html {
   background-color: white;
+  color: #3e3e3e;
 }
 body {
   background-image: url(/img/winelistbg.svg);
@@ -14,8 +15,9 @@ li {
 nav a:link {
   text-decoration: none;
   font-family: "neue-haas-grotesk-display";
-  font-size: 1em;
+  font-size: 0.8em;
   color: black;
+  letter-spacing: 0.1em;
 }
 nav a:visited {
   text-decoration: none;
@@ -34,7 +36,7 @@ nav a:active {
 }
 
 nav {
-  margin-top: 5vw;
+  margin-top: 7vw;
   display: flex;
   font-family: "neue-haas-grotesk-display";
   color: black;
@@ -67,6 +69,7 @@ h1 {
   font-family: "messapiaregular";
   font-weight: 300;
   font-size: 1.8em;
+  color: #3e3e3e;
 }
 
 img {
@@ -74,6 +77,27 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+}
+
+.logo {
+  font-family: "messapiaregular";
+  font-size: 1em;
+  position: absolute;
+  margin-top: -6vh;
+  margin-left: 15vw;
+  color: #3e3e3e;
+}
+
+.home {
+  width: 1.5vw;
+  position: absolute;
+  margin-top: 1.5vh;
+  margin-left: 54vw;
+}
+
+.home:hover {
+  width: 1.7vw;
+  margin-left: 53.9vw;
 }
 
 article h3 {
