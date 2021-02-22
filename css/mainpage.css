@@ -1,6 +1,7 @@
 /* navigation */
 html {
   background-color: white;
+  position: fixed;
 }
 body,
 header,
@@ -68,14 +69,14 @@ h1 {
 .title {
   position: absolute;
   margin-left: 11.786vw;
-  margin-top: 21.231vw;
+  margin-top: 26.231vh;
   font-size: 5.124vw;
 }
 
 .title2 {
   position: absolute;
   margin-left: 11.786vw;
-  margin-top: 27.747vw;
+  margin-top: 38.747vh;
   font-size: 5.124vw;
 }
 
@@ -92,14 +93,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1.07em;
-  font-weight: normal;
+  font-size: 1em;
+  font-weight: 200;
   font-family: "neue-haas-grotesk-display";
   text-align: right;
+  letter-spacing: 0.1em;
 }
 
 #container {
-  margin-top: -23vw;
+  margin-top: -60vh;
   width: 19em;
   margin-left: 47vw;
 }
