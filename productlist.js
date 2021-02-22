@@ -1,5 +1,8 @@
 const url = "https://kea21-6a0c.restdb.io/rest/wine?max=35";
 
+const mediaurl = "https://kea21-6a0c.restdb.io/media/";
+
+//560263607f98025500000000?s=t
 //The API key
 const options = {
     headers: {
@@ -28,6 +31,11 @@ fetch(url, options)
 
         //change something
         clone.querySelector(".colour").textContent = wine.colour;
+
+        const imgurl = mediaurl + wine.bottle[0];
+        clone.querySelector(".image").src = imgurl;
+        console.log(imgurl);
+
         clone.querySelector(".name").textContent = wine.name;
 
         //choose parent
