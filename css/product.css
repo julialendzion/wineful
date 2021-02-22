@@ -6,10 +6,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-body {
-  background-image: url(Artboard\ 1.svg);
-  background-size: 100%;
-}
+
 li {
   list-style: none;
 }
@@ -99,4 +96,15 @@ img {
   margin-left: 1vw;
   margin-right: 1vw;
   align-content: center;
+}
+
+.pattern {
+  width: 45.5vw;
+  margin-left: -9.9vw;
+  position: absolute;
+  margin-top: -3vh;
+}
+
+.lines {
+  width: 100%;
 }
