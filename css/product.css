@@ -67,7 +67,8 @@ h1 {
   font-weight: 300;
 }
 h2,
-h3 {
+h3,
+h5 {
   font-family: "neue-haas-grotesk-display";
   font-weight: 200;
 }
@@ -82,4 +83,20 @@ img {
   margin-right: auto;
   width: 15%;
   margin-top: 7vw;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  height: 1vw;
+  width: 1vw;
+  background-color: #070606;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  align-content: center;
 }
