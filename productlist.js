@@ -20,6 +20,22 @@ fetch(url, options)
     }
     function product(wine){
         console.log(wine);
+    
+        //grab template
+        const template = document.querySelector("template").content;
+
+        //clone it
+        const clone = template.cloneNode(true);
+
+        //change something
+        clone.querySelector(".colour").textContent = wine.colour;
+        clone.querySelector(".name").textContent = wine.name;
+
+        //choose parent
+        const parent = document.querySelector("main");
+
+        //append
+        parent.appendChild(clone);
     }
     
 function myFunction() {
@@ -70,20 +86,3 @@ window.onclick = function (event) {
     }
   }
 };
-
-        //grab template
-        const template = document.querySelector("template").content;
-
-        //clone it
-        const clone = template.cloneNode(true);
-
-        //change something
-        clone.querySelector(".colour").textContent = wine.colour;
-        clone.querySelector(".name").textContent = wine.name;
-
-        //choose parent
-        const parent = document.querySelector("main");
-
-        //append
-        parent.appendChild(clone);
-    }
