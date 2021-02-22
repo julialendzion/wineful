@@ -6,10 +6,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-body {
-  background-image: url(Artboard\ 1.svg);
-  background-size: 100%;
-}
+
 li {
   list-style: none;
 }
@@ -17,8 +14,9 @@ li {
 nav a:link {
   text-decoration: none;
   font-family: "neue-haas-grotesk-display";
-  font-size: 1em;
+  font-size: 0.8em;
   color: black;
+  letter-spacing: 0.1em;
 }
 nav a:visited {
   text-decoration: none;
@@ -37,7 +35,7 @@ nav a:active {
 }
 
 nav {
-  margin-top: 5vw;
+  margin-top: 7vw;
   display: flex;
   font-family: "neue-haas-grotesk-display";
   color: black;
@@ -66,6 +64,29 @@ h1 {
   font-family: "neue-haas-grotesk-display";
   font-weight: 300;
 }
+
+.logo {
+  font-family: "messapiaregular";
+  font-size: 1em;
+  position: absolute;
+  margin-top: -6vh;
+  margin-left: 15vw;
+  color: #3e3e3e;
+  letter-spacing: 0;
+}
+
+.home {
+  width: 1.5vw;
+  position: absolute;
+  margin-top: 1.5vh;
+  margin-left: 54vw;
+}
+
+.home:hover {
+  width: 1.7vw;
+  margin-left: 53.9vw;
+}
+
 h2,
 h3,
 h5 {
@@ -98,4 +119,15 @@ img {
   display: inline-block;
   margin-left: 1vw;
   margin-right: 1vw;
+}
+
+.pattern {
+  width: 45.5vw;
+  margin-left: -9.9vw;
+  position: absolute;
+  margin-top: -3vh;
+}
+
+.lines {
+  width: 100%;
 }
