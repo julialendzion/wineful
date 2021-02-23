@@ -76,9 +76,16 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: auto;
+  max-height: 200px;
 }
 
+.imagecontainer {
+  height: -5vh;
+  display: flex;
+  align-items: flex-end;
+  justify-items: center;
+}
 .logo {
   font-family: "messapiaregular";
   font-size: 1em;
