@@ -6,46 +6,47 @@ const mediaurl = "https://kea21-6a0c.restdb.io/media/";
 //560263607f98025500000000?s=t
 //The API key
 const options = {
-    headers: {
-        "x-apikey": "60339bce5ad3610fb5bb64e6",
-    },
+  headers: {
+    "x-apikey": "60339bce5ad3610fb5bb64e6",
+  },
 };
 
 fetch(url, options)
-    .then(function(response){
-        return response.json();
-    })
-    .then(function(data){
-        handleData(data);
-    })
-    function handleData(data){
-        data.forEach(product);
-    }
-    function product(wine){
-        console.log(wine);
-    
-        //grab template
-        const template = document.querySelector("template").content;
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    handleData(data);
+  });
+function handleData(data) {
+  data.forEach(product);
+}
+function product(wine) {
+  console.log(wine);
 
-        //clone it
-        const clone = template.cloneNode(true);
+  //grab template
+  const template = document.querySelector("template").content;
 
-        //change something
-        clone.querySelector(".colour").textContent = wine.colour;
+  //clone it
+  const clone = template.cloneNode(true);
 
-        const imgurl = mediaurl + wine.bottle[0];
-        clone.querySelector(".image").src = imgurl;
-        console.log(imgurl);
+  //change something
+  clone.querySelector(".colour").textContent = wine.colour;
+  clone.querySelector("a").href = `product.html?id=${wine._id}`;
 
-        clone.querySelector(".name").textContent = wine.name;
+  const imgurl = mediaurl + wine.bottle[0];
+  clone.querySelector(".image").src = imgurl;
+  console.log(imgurl);
 
-        //choose parent
-        const parent = document.querySelector("main");
+  clone.querySelector(".name").textContent = wine.name;
 
-        //append
-        parent.appendChild(clone);
-    }
-    
+  //choose parent
+  const parent = document.querySelector("main");
+
+  //append
+  parent.appendChild(clone);
+}
+
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
