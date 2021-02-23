@@ -2,6 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
 
 const url = `https://kea21-6a0c.restdb.io/rest/wine/` + id;
+const mediaurl = "https://kea21-6a0c.restdb.io/media/";
 
 //API key
 //The API key
@@ -21,8 +22,9 @@ function showProduct(wine) {
 
   document.querySelector(".name").textContent = wine.name;
   document.querySelector(".brand").textContent = wine.brand;
-  document.querySelector(
-    ".image"
-  ).src = `https://kea21-6a0c.restdb.io/media/${wine.bottle}`;
-  document.querySelector(".image").alt = wine.name;
+  document.querySelector(".image").src =
+    `https://kea21-6a0c.restdb.io/media/${wine.bottle[0]`;
+
 }
+
+
