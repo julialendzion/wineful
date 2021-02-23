@@ -123,8 +123,26 @@ img {
   background-color: #070606;
   border-radius: 50%;
   display: inline-block;
-  margin-left: 1vw;
-  margin-right: 1vw;
+  margin-left: 0.8vw;
+  margin-right: 0.8vw;
+}
+
+.firstcontainer {
+  margin-left: -2.5vw;
+}
+
+.othertext {
+  position: absolute;
+  margin-left: 25vw;
+  margin-top: -15vw;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+p {
+  letter-spacing: 0.11vw;
 }
 
 .pattern {

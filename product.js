@@ -23,4 +23,6 @@ function showProduct(wine) {
   document.querySelector(".name").textContent = wine.name;
   document.querySelector(".brand").textContent = wine.brand;
   document.querySelector(".image").src = imgurl;
+  document.querySelector(".mood").textContent = wine.mood;
+  document.querySelector(".food").textContent = wine.food;
 }
