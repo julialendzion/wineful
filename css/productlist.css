@@ -76,7 +76,15 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 35%;
+  max-height: 600px;
+}
+
+.imagecontainer {
+  height: 20vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .logo {
