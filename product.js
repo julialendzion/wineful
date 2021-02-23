@@ -17,6 +17,7 @@ fetch(url, options)
   .then((res) => res.json())
   .then((data) => showProduct(data));
 
+//changing the content- name, brand, image
 function showProduct(wine) {
   console.log(wine);
   const imgurl = mediaurl + wine.bottle[0];
