@@ -26,6 +26,7 @@ function showProduct(wine) {
   document.querySelector(".image").src = imgurl;
   document.querySelector(".mood").textContent = wine.mood;
   document.querySelector(".food").textContent = wine.food;
+  document.querySelector(".colour").textContent = wine.colour;
 
   if (wine.price == 4) {
     console.log("cheap");
