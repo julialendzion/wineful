@@ -1,5 +1,7 @@
 const url = `https://kea21-6a0c.restdb.io/rest/wine?max=35`;
 
+// const url = "https://kea21-6a0c.restdb.io/rest/wine/" +id;
+
 //API key
 //The API key
 const options = {
