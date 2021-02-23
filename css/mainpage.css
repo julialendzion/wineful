@@ -107,6 +107,8 @@ h2 {
   margin-left: 47vw;
 }
 
+/*responsive*/
+
 @keyframes growDown {
   0% {
     transform: scaleY(0);
@@ -129,13 +131,34 @@ h2 {
     flex-direction: column;
     margin-left: 15vw;
   }
+}
 
-  @media screen and (max-width: 700px) {
-    nav {
-      margin-top: 20vw;
-      width: 70vw;
-      display: flex;
-      flex-direction: column;
-      margin-left: 15vw;
-    }
-    
+@media screen and (max-width: 700px) {
+  nav {
+    margin-top: 20vw;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h2 {
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+  }
+}
