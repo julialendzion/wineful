@@ -44,3 +44,5 @@ function showProduct(wine) {
     console.log("don'twork2");
   }
 }
+
+console.log("don't work");
