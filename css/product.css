@@ -127,6 +127,17 @@ img {
   margin-right: 0.8vw;
 }
 
+.dotempty {
+  height: 0.8vw;
+  width: 0.8vw;
+  border: 1px solid;
+  border-color: #070606;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 0.8vw;
+  margin-right: 0.8vw;
+}
+
 .firstcontainer {
   margin-left: -2.5vw;
 }

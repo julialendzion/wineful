@@ -26,4 +26,21 @@ function showProduct(wine) {
   document.querySelector(".image").src = imgurl;
   document.querySelector(".mood").textContent = wine.mood;
   document.querySelector(".food").textContent = wine.food;
+
+  if ((wine.price = 3)) {
+    console.log("cheap");
+    document.querySelector("#price1").classList.add("dotempty");
+    document.querySelector("#price2").classList.add("dotempty");
+    document.querySelector("#price3").classList.add("dotempty");
+  } else {
+    console.log("don'twork");
+  }
+
+  if ((wine.price = 2)) {
+    console.log("cheap2");
+    document.querySelector("#price1").classList.add("dotempty");
+    document.querySelector("#price2").classList.add("dotempty");
+  } else {
+    console.log("don'twork2");
+  }
 }
