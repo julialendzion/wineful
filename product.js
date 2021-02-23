@@ -19,12 +19,8 @@ fetch(url, options)
 
 function showProduct(wine) {
   console.log(wine);
-
+  const imgurl = mediaurl + wine.bottle[0];
   document.querySelector(".name").textContent = wine.name;
   document.querySelector(".brand").textContent = wine.brand;
-  document.querySelector(".image").src =
-    `https://kea21-6a0c.restdb.io/media/${wine.bottle[0]`;
-
+  document.querySelector(".image").src = imgurl;
 }
-
-
