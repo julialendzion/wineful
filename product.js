@@ -27,22 +27,130 @@ function showProduct(wine) {
   document.querySelector(".mood").textContent = wine.mood;
   document.querySelector(".food").textContent = wine.food;
 
-  if ((wine.price = 3)) {
+  if (wine.price == 4) {
     console.log("cheap");
-    document.querySelector("#price1").classList.add("dotempty");
-    document.querySelector("#price2").classList.add("dotempty");
-    document.querySelector("#price3").classList.add("dotempty");
+    document.querySelector("#price5").classList.remove("dot");
+    document.querySelector("#price5").classList.add("dotempty");
+  } else {
+    console.log("don'twork");
+  }
+  if (wine.price == 3) {
+    console.log("cheap");
+    document.querySelector("#price4").classList.remove("dot");
+    document.querySelector("#price4").classList.add("dotempty");
+    document.querySelector("#price5").classList.remove("dot");
+    document.querySelector("#price5").classList.add("dotempty");
   } else {
     console.log("don'twork");
   }
 
-  if ((wine.price = 2)) {
+  if (wine.price == 2) {
     console.log("cheap2");
-    document.querySelector("#price1").classList.add("dotempty");
-    document.querySelector("#price2").classList.add("dotempty");
+    document.querySelector("#price3").classList.remove("dot");
+    document.querySelector("#price3").classList.add("dotempty");
+    document.querySelector("#price4").classList.remove("dot");
+    document.querySelector("#price4").classList.add("dotempty");
+    document.querySelector("#price5").classList.remove("dot");
+    document.querySelector("#price5").classList.add("dotempty");
   } else {
     console.log("don'twork2");
   }
-}
 
-console.log("don't work");
+  if (wine.price == 1) {
+    console.log("cheap2");
+    document.querySelector("#price2").classList.remove("dot");
+    document.querySelector("#price2").classList.add("dotempty");
+    document.querySelector("#price3").classList.remove("dot");
+    document.querySelector("#price3").classList.add("dotempty");
+    document.querySelector("#price4").classList.remove("dot");
+    document.querySelector("#price4").classList.add("dotempty");
+    document.querySelector("#price5").classList.remove("dot");
+    document.querySelector("#price5").classList.add("dotempty");
+  } else {
+    console.log("don'twork2");
+  }
+
+  if (wine.sweetness == 4) {
+    console.log("cheap");
+    document.querySelector("#sweet5").classList.remove("dot");
+    document.querySelector("#sweet5").classList.add("dotempty");
+  } else {
+    console.log("don'twork");
+  }
+
+  if (wine.sweetness == 3) {
+    console.log("cheap");
+    document.querySelector("#sweet4").classList.remove("dot");
+    document.querySelector("#sweet4").classList.add("dotempty");
+    document.querySelector("#sweet5").classList.remove("dot");
+    document.querySelector("#sweet5").classList.add("dotempty");
+  } else {
+    console.log("don'twork");
+  }
+  if (wine.sweetness == 2) {
+    console.log("cheap");
+    document.querySelector("#sweet3").classList.remove("dot");
+    document.querySelector("#sweet3").classList.add("dotempty");
+    document.querySelector("#sweet4").classList.remove("dot");
+    document.querySelector("#sweet4").classList.add("dotempty");
+    document.querySelector("#sweet5").classList.remove("dot");
+    document.querySelector("#sweet5").classList.add("dotempty");
+  } else {
+    console.log("don'twork");
+  }
+  if (wine.sweetness == 1) {
+    console.log("cheap");
+    document.querySelector("#sweet2").classList.remove("dot");
+    document.querySelector("#sweet2").classList.add("dotempty");
+    document.querySelector("#sweet3").classList.remove("dot");
+    document.querySelector("#sweet3").classList.add("dotempty");
+    document.querySelector("#sweet4").classList.remove("dot");
+    document.querySelector("#sweet4").classList.add("dotempty");
+    document.querySelector("#sweet5").classList.remove("dot");
+    document.querySelector("#sweet5").classList.add("dotempty");
+  } else {
+    console.log("don'twork");
+  }
+
+  if (wine.balance == 4) {
+    console.log("cheap");
+    document.querySelector("#soft5").classList.remove("dot");
+    document.querySelector("#soft5").classList.add("dotempty");
+  } else {
+    console.log("don'twork");
+  }
+
+  if (wine.balance == 3) {
+    console.log("cheap");
+    document.querySelector("#soft5").classList.remove("dot");
+    document.querySelector("#soft5").classList.add("dotempty");
+    document.querySelector("#soft4").classList.remove("dot");
+    document.querySelector("#soft4").classList.add("dotempty");
+  } else {
+    console.log("don'twork");
+  }
+  if (wine.balance == 2) {
+    console.log("cheap");
+    document.querySelector("#soft5").classList.remove("dot");
+    document.querySelector("#soft5").classList.add("dotempty");
+    document.querySelector("#soft4").classList.remove("dot");
+    document.querySelector("#soft4").classList.add("dotempty");
+    document.querySelector("#soft3").classList.remove("dot");
+    document.querySelector("#soft3").classList.add("dotempty");
+  } else {
+    console.log("don'twork");
+  }
+  if (wine.balance == 1) {
+    console.log("cheap");
+    document.querySelector("#soft5").classList.remove("dot");
+    document.querySelector("#soft5").classList.add("dotempty");
+    document.querySelector("#soft4").classList.remove("dot");
+    document.querySelector("#soft4").classList.add("dotempty");
+    document.querySelector("#soft3").classList.remove("dot");
+    document.querySelector("#soft3").classList.add("dotempty");
+    document.querySelector("#soft2").classList.remove("dot");
+    document.querySelector("#soft2").classList.add("dotempty");
+  } else {
+    console.log("don'twork");
+  }
+}
