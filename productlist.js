@@ -50,13 +50,18 @@ function product(wine) {
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
-  document.querySelector(".arrow").classList.add("rotate");
+  document.querySelector("#arrow1").classList.toggle("rotate");
+  document.querySelector("#arrow1").classList.toggle("rotate2");
 }
 function myFunction2() {
   document.getElementById("myDropdown2").classList.toggle("show");
+  document.querySelector("#arrow2").classList.toggle("rotate");
+  document.querySelector("#arrow2").classList.toggle("rotate2");
 }
 function myFunction3() {
   document.getElementById("myDropdown3").classList.toggle("show");
+  document.querySelector("#arrow3").classList.toggle("rotate");
+  document.querySelector("#arrow3").classList.toggle("rotate2");
 }
 
 // Close the dropdown menu if the user clicks outside of it
