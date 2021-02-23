@@ -34,6 +34,7 @@ function product(wine) {
   clone.querySelector(".colour").textContent = wine.colour;
   clone.querySelector("a").href = `product.html?id=${wine._id}`;
 
+  //changing the image
   const imgurl = mediaurl + wine.bottle[0];
   clone.querySelector(".image").src = imgurl;
   console.log(imgurl);
