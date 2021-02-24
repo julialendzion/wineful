@@ -123,6 +123,102 @@ h2 {
   }
 }
 
+@media screen and (max-width: 1135px) {
+  h2{
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 5vw;
+    margin-right: 1vw;
+}
+}
+
+@media screen and (max-width: 1095px) {
+  h2{
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 5vw;
+    margin-right: 2vw;
+}
+}
+
+@media screen and (max-width: 1062px) {
+  h2{
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 10vw;
+    margin-right: 4vw;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  h2{
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 15vw;
+    margin-right: 6vw;
+}
+}
+
+@media screen and (max-width: 940px) {
+  h2{
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 20vw;
+    margin-right: 7vw;
+}
+}
+
+@media screen and (max-width: 896px) {
+  h2{
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 20vw;
+    margin-right: 8vw;
+}
+}
+
+@media screen and (max-width: 866px) {
+  h2{
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 25vw;
+    margin-right: 10vw;
+}
+}
+
+@media screen and (max-width: 830px) {
+  h2{
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 30vw;
+    margin-right: 12vw;
+}
+}
+
 @media screen and (max-width: 800px) {
   nav {
     margin-top: 20vw;
@@ -130,6 +226,80 @@ h2 {
     display: flex;
     flex-direction: column;
     margin-left: 15vw;
+  }
+
+  h2 {
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 90vw;
+    margin-right: 14vw;
+  }
+
+  .title {
+    position: absolute;
+    margin-left: 11.786vw;
+    margin-top: 15.231vh;
+    font-size: 5.124vw;
+}
+
+  .title2 {
+    position: absolute;
+    margin-left: 11.786vw;
+    margin-top: 27.747vh;
+    font-size: 5.124vw;
+}
+
+  .wb {
+    position: absolute;
+    width: 16.471vw;
+    margin-left: 75vw;
+    margin-top: 15vw;
+  }
+
+  .bg {
+    position: absolute;
+    margin-top: 4vw;
+  }
+}
+
+.title {
+  position: absolute;
+  margin-left: 11.786vw;
+  margin-top: 26.231vh;
+  font-size: 5.124vw;
+}
+
+.title2 {
+  position: absolute;
+  margin-left: 11.786vw;
+  margin-top: 38.747vh;
+  font-size: 5.124vw;
+}
+
+@media screen and (max-width: 750px) {
+  h2 {
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 95vw;
+    margin-right: 16vw;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  h2 {
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 97vw;
+    margin-right: 20vw;
   }
 }
 
@@ -141,24 +311,142 @@ h2 {
     flex-direction: column;
     margin-left: 15vw;
   }
-}
 
-@media screen and (max-width: 800px) {
+  .title {
+    position: absolute;
+    margin-left: 11.786vw;
+    margin-top: 26.231vh;
+    font-size: 5.124vw;
+  }
+  
+  .title2 {
+    position: absolute;
+    margin-left: 11.786vw;
+    margin-top: 38.747vh;
+    font-size: 5.124vw;
+  }
+
   h2 {
     font-size: 1em;
     font-weight: 200;
     font-family: "neue-haas-grotesk-display";
     text-align: right;
     letter-spacing: 0.1em;
+    margin-top: 100vw;
+    position: absolute;
+  }
+
+  .bg {
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 70vw;
+    width: 26vw;
+  }
+
+  .wb {
+    width: 15.471vw;
+    margin-left: 75.5vw;
+    margin-top: 20vw;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 666px) {
   h2 {
     font-size: 1em;
     font-weight: 200;
     font-family: "neue-haas-grotesk-display";
     text-align: right;
     letter-spacing: 0.1em;
+    margin-top: 105vw;
+    margin-right: 21vw;
   }
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    position: absolute;
+    margin-left: 11.786vw;
+    margin-top: 13.231vh;
+    font-size: 5.124vw;
+}
+
+  .title2 {
+    position: absolute;
+    margin-left: 11.786vw;
+    margin-top: 25.747vh;
+    font-size: 5.124vw;
+}
+
+  h2 {
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 105vw;
+    margin-right: 27vw;
+  }
+
+.bg {
+  position: absolute;
+  margin-top: 19vw;
+  margin-left: 70vw;
+  width: 26vw;
+}
+
+.wb {
+  width: 15.471vw;
+  margin-left: 75.5vw;
+  margin-top: 30vw;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .bg {
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 70vw;
+    width: 26vw;
+}
+
+.wb {
+  width: 15.471vw;
+  margin-left: 75.5vw;
+  margin-top: 35vw;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 200;
+  font-family: "neue-haas-grotesk-display";
+  text-align: right;
+  letter-spacing: 0.1em;
+  margin-top: 110vw;
+  margin-right: 29vw;
+}
+}
+
+@media screen and (max-width: 575px) {
+  h2 {
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 115vw;
+    margin-right: 35vw;
+}
+}
+
+@media screen and (max-width: 375px) {
+  h2 {
+    h2 {
+      font-size: 1em;
+      font-weight: 200;
+      font-family: "neue-haas-grotesk-display";
+      text-align: right;
+      letter-spacing: 0.1em;
+      margin-top: 200vw;
+      margin-right: 60vw;
+}
 }
