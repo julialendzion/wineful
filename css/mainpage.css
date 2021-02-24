@@ -124,7 +124,7 @@ h2 {
 }
 
 @media screen and (max-width: 1135px) {
-  h2{
+  h2 {
     font-size: 1em;
     font-weight: 200;
     font-family: "neue-haas-grotesk-display";
@@ -132,11 +132,11 @@ h2 {
     letter-spacing: 0.1em;
     margin-top: 5vw;
     margin-right: 1vw;
-}
+  }
 }
 
 @media screen and (max-width: 1095px) {
-  h2{
+  h2 {
     font-size: 1em;
     font-weight: 200;
     font-family: "neue-haas-grotesk-display";
@@ -144,11 +144,11 @@ h2 {
     letter-spacing: 0.1em;
     margin-top: 5vw;
     margin-right: 2vw;
-}
+  }
 }
 
 @media screen and (max-width: 1062px) {
-  h2{
+  h2 {
     font-size: 1em;
     font-weight: 200;
     font-family: "neue-haas-grotesk-display";
@@ -156,11 +156,11 @@ h2 {
     letter-spacing: 0.1em;
     margin-top: 10vw;
     margin-right: 4vw;
-}
+  }
 }
 
 @media screen and (max-width: 1000px) {
-  h2{
+  h2 {
     font-size: 1em;
     font-weight: 200;
     font-family: "neue-haas-grotesk-display";
@@ -168,11 +168,11 @@ h2 {
     letter-spacing: 0.1em;
     margin-top: 15vw;
     margin-right: 6vw;
-}
+  }
 }
 
 @media screen and (max-width: 940px) {
-  h2{
+  h2 {
     font-size: 1em;
     font-weight: 200;
     font-family: "neue-haas-grotesk-display";
@@ -180,11 +180,11 @@ h2 {
     letter-spacing: 0.1em;
     margin-top: 20vw;
     margin-right: 7vw;
-}
+  }
 }
 
 @media screen and (max-width: 896px) {
-  h2{
+  h2 {
     font-size: 1em;
     font-weight: 200;
     font-family: "neue-haas-grotesk-display";
@@ -192,11 +192,11 @@ h2 {
     letter-spacing: 0.1em;
     margin-top: 20vw;
     margin-right: 8vw;
-}
+  }
 }
 
 @media screen and (max-width: 866px) {
-  h2{
+  h2 {
     font-size: 1em;
     font-weight: 200;
     font-family: "neue-haas-grotesk-display";
@@ -204,11 +204,11 @@ h2 {
     letter-spacing: 0.1em;
     margin-top: 25vw;
     margin-right: 10vw;
-}
+  }
 }
 
 @media screen and (max-width: 830px) {
-  h2{
+  h2 {
     font-size: 1em;
     font-weight: 200;
     font-family: "neue-haas-grotesk-display";
@@ -216,7 +216,7 @@ h2 {
     letter-spacing: 0.1em;
     margin-top: 30vw;
     margin-right: 12vw;
-}
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -243,14 +243,14 @@ h2 {
     margin-left: 11.786vw;
     margin-top: 15.231vh;
     font-size: 5.124vw;
-}
+  }
 
   .title2 {
     position: absolute;
     margin-left: 11.786vw;
     margin-top: 27.747vh;
     font-size: 5.124vw;
-}
+  }
 
   .wb {
     position: absolute;
@@ -318,7 +318,7 @@ h2 {
     margin-top: 26.231vh;
     font-size: 5.124vw;
   }
-  
+
   .title2 {
     position: absolute;
     margin-left: 11.786vw;
@@ -368,14 +368,14 @@ h2 {
     margin-left: 11.786vw;
     margin-top: 13.231vh;
     font-size: 5.124vw;
-}
+  }
 
   .title2 {
     position: absolute;
     margin-left: 11.786vw;
     margin-top: 25.747vh;
     font-size: 5.124vw;
-}
+  }
 
   h2 {
     font-size: 1em;
@@ -387,18 +387,18 @@ h2 {
     margin-right: 27vw;
   }
 
-.bg {
-  position: absolute;
-  margin-top: 19vw;
-  margin-left: 70vw;
-  width: 26vw;
-}
+  .bg {
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 70vw;
+    width: 26vw;
+  }
 
-.wb {
-  width: 15.471vw;
-  margin-left: 75.5vw;
-  margin-top: 30vw;
-}
+  .wb {
+    width: 15.471vw;
+    margin-left: 75.5vw;
+    margin-top: 30vw;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -407,23 +407,23 @@ h2 {
     margin-top: 24vw;
     margin-left: 70vw;
     width: 26vw;
-}
+  }
 
-.wb {
-  width: 15.471vw;
-  margin-left: 75.5vw;
-  margin-top: 35vw;
-}
+  .wb {
+    width: 15.471vw;
+    margin-left: 75.5vw;
+    margin-top: 35vw;
+  }
 
-h2 {
-  font-size: 1em;
-  font-weight: 200;
-  font-family: "neue-haas-grotesk-display";
-  text-align: right;
-  letter-spacing: 0.1em;
-  margin-top: 110vw;
-  margin-right: 29vw;
-}
+  h2 {
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 110vw;
+    margin-right: 29vw;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -435,18 +435,17 @@ h2 {
     letter-spacing: 0.1em;
     margin-top: 115vw;
     margin-right: 35vw;
-}
+  }
 }
 
 @media screen and (max-width: 375px) {
   h2 {
-    h2 {
-      font-size: 1em;
-      font-weight: 200;
-      font-family: "neue-haas-grotesk-display";
-      text-align: right;
-      letter-spacing: 0.1em;
-      margin-top: 200vw;
-      margin-right: 60vw;
-}
+    font-size: 1em;
+    font-weight: 200;
+    font-family: "neue-haas-grotesk-display";
+    text-align: right;
+    letter-spacing: 0.1em;
+    margin-top: 200vw;
+    margin-right: 60vw;
+  }
 }
