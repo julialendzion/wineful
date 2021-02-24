@@ -306,6 +306,14 @@ header li:hover {
     margin-top: -7vh;
     margin-left: 80vw;
   }
+
+  .home:hover {
+    width: 20px;
+    position: absolute;
+    margin-top: -7vh;
+    margin-left: 80vw;
+  }
+
   #icon3,
   #icon2,
   #icon {

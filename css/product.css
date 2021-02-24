@@ -204,6 +204,13 @@ p {
     margin-bottom: 10px;
   }
 
+  .home:hover {
+    width: 20px;
+    position: absolute;
+    margin-top: -7vh;
+    margin-left: 80vw;
+  }
+
   .image {
     width: 20%;
     z-index: 1;
