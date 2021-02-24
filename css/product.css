@@ -172,7 +172,7 @@ p {
     display: grid;
     grid-template-columns: 1fr;
   }
-  
+
   nav {
     margin-top: 20vw;
     width: 70vw;
@@ -202,6 +202,11 @@ p {
     margin-top: -7vh;
     margin-left: 80vw;
     margin-bottom: 10px;
+  }
+
+  .home:hover {
+    width: 1.7vw;
+    margin-left: 7.9vw;
   }
 
   .image {

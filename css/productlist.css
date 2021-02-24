@@ -3,7 +3,7 @@ html {
   color: #3e3e3e;
 }
 body {
-  background-image: url(/img/winelistbg.svg);
+  background-image: url(/wineful/img/winelistbg.svg);
   background-size: 145%;
   background-position-x: -25vw;
 }
@@ -102,7 +102,7 @@ img {
 
 .home:hover {
   width: 1.7vw;
-  margin-left: 53.9vw;
+  margin-left: 7.9vw;
 }
 
 article h3 {
