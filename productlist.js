@@ -10,6 +10,24 @@ const options = {
     "x-apikey": "60339bce5ad3610fb5bb64e6",
   },
 };
+document.querySelector("#red").onclick = () => {
+  filter("red");
+};
+
+function filter(filter_type) {
+  console.log("filering", filter_type);
+  document.querySelector("main").innerHTML = "";
+  fetch(
+    `https://kea21-6a0c.restdb.io/rest/wine?max=35&filter=${filter_type}`,
+    options
+  )
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      handleData(data);
+    });
+}
 
 fetch(url, options)
   .then(function (response) {
@@ -19,6 +37,7 @@ fetch(url, options)
     handleData(data);
   });
 function handleData(data) {
+  console.log("data", data);
   data.forEach(product);
 }
 function product(wine) {
