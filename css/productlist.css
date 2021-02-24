@@ -154,6 +154,10 @@ article {
   background-color: #f5f0ee;
   cursor: pointer;
 }
+.dropdown-content4 div div:hover {
+  background-color: #f5f0ee;
+  cursor: pointer;
+}
 .dropdown-content2 {
   display: none;
   position: absolute;
@@ -181,6 +185,21 @@ article {
 }
 
 .dropdown-content3 div {
+  font-family: "neue-haas-grotesk-display";
+  padding: 0.8vw;
+}
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 10vw;
+  margin-top: 2em;
+  margin-left: 42vw;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-content4 div {
   font-family: "neue-haas-grotesk-display";
   padding: 0.8vw;
 }
@@ -216,6 +235,17 @@ header ul {
 #icon {
   width: 10vw;
   font-family: "neue-haas-grotesk-display";
+}
+#icon4 {
+  border-style: solid;
+  border-width: 0.7px 0.7px 0.7px 0.7px;
+  border-color: black;
+  width: 5vw;
+  font-family: "neue-haas-grotesk-display";
+  text-align: center;
+  padding: 0.3vw;
+  margin-top: -0.3vw;
+  margin-left: 0.65vw;
 }
 
 header li:hover {
@@ -340,7 +370,7 @@ header li:hover {
   header ul {
     display: flex;
     justify-content: space-around;
-    margin-left: 0;
+    margin-left: 2vw;
     margin-right: 3vw;
     margin-top: 2vw;
   }
@@ -355,5 +385,8 @@ header li:hover {
   .dropdown-content3 div {
     font-family: "neue-haas-grotesk-display";
     padding: 2vw 0.5vw 2vw 0.5vw;
+  }
+  #icon4 {
+    display: none;
   }
 }
