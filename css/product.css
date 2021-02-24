@@ -84,7 +84,7 @@ h1 {
 
 .home:hover {
   width: 1.7vw;
-  margin-left: 53.9vw;
+  margin-left: 7.9vw;
 }
 
 h2,
@@ -202,11 +202,6 @@ p {
     margin-top: -7vh;
     margin-left: 80vw;
     margin-bottom: 10px;
-  }
-
-  .home:hover {
-    width: 1.7vw;
-    margin-left: 7.9vw;
   }
 
   .image {
