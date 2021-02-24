@@ -11,6 +11,35 @@ const options = {
   },
 };
 
+document.querySelector("#red").onclick = () => {
+  filter("red");
+};
+document.querySelector("#white").onclick = () => {
+  filter("white");
+};
+
+document.querySelector("#rose").onclick = () => {
+  filter("rose");
+};
+document.querySelector("#bubbles").onclick = () => {
+  filter("bubbles");
+};
+
+function filter(filter_type) {
+  console.log("filering", filter_type);
+  document.querySelector("main").innerHTML = "";
+  fetch(
+    `https://kea21-6a0c.restdb.io/rest/wine?max=35&filter=${filter_type}`,
+    options
+  )
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      handleData(data);
+    });
+}
+
 fetch(url, options)
   .then(function (response) {
     return response.json();
@@ -19,6 +48,7 @@ fetch(url, options)
     handleData(data);
   });
 function handleData(data) {
+  console.log("data", data);
   data.forEach(product);
 }
 function product(wine) {

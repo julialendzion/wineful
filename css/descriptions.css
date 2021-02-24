@@ -2,9 +2,14 @@ html {
   background-color: white;
 }
 body,
-header,
+header {
+  background-color: #fff;
+}
+
 main {
   background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 li {
@@ -51,11 +56,13 @@ nav {
   border-width: 0.7px 0.7px 0.7px 0px;
   border-color: black;
 }
+
 .box1:hover,
 .box2:hover {
   background-color: #f5f0ee;
   cursor: pointer;
 }
+
 .box1 {
   border-width: 0.7px 0.7px 0.7px 0.7px;
 }
@@ -113,7 +120,7 @@ h1 {
 
 .home:hover {
   width: 1.7vw;
-  margin-left: 53.9vw;
+  margin-left: 7.9vw;
 }
 
 h2 {
@@ -135,4 +142,68 @@ p {
 
 footer {
   height: 20vh;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    margin-top: 20vw;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+  }
+
+  .box1,
+  .box2 {
+    background-color: white;
+    padding: 5vw 5vw 5vw 5vw;
+    border-style: solid;
+    border-width: 0.7px 0.7px 0.7px 0.7px;
+    border-color: black;
+    margin-bottom: 3vw;
+  }
+
+  .home {
+    width: 20px;
+    position: absolute;
+    margin-top: -7vh;
+    margin-left: 80vw;
+    margin-bottom: 10px;
+  }
+
+  .box1 {
+    margin-top: 10px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .bg {
+    width: 20%;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .bgpattern {
+    display: none;
+  }
+
+  article {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+
+  h1 {
+    font-size: 17px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 13px;
+  }
 }
