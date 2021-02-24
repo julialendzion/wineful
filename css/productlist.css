@@ -144,12 +144,15 @@ article {
 
 .dropdown-content div div:hover {
   background-color: #f5f0ee;
+  cursor: pointer;
 }
 .dropdown-content2 div div:hover {
   background-color: #f5f0ee;
+  cursor: pointer;
 }
 .dropdown-content3 div div:hover {
   background-color: #f5f0ee;
+  cursor: pointer;
 }
 .dropdown-content2 {
   display: none;

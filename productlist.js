@@ -10,8 +10,19 @@ const options = {
     "x-apikey": "60339bce5ad3610fb5bb64e6",
   },
 };
+
 document.querySelector("#red").onclick = () => {
   filter("red");
+};
+document.querySelector("#white").onclick = () => {
+  filter("white");
+};
+
+document.querySelector("#rose").onclick = () => {
+  filter("rose");
+};
+document.querySelector("#bubbles").onclick = () => {
+  filter("bubbles");
 };
 
 function filter(filter_type) {
