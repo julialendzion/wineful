@@ -10,7 +10,6 @@ main {
   background-color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 80px;
 }
 
 li {
@@ -170,6 +169,13 @@ footer {
     margin-top: -7vh;
     margin-left: 80vw;
     margin-bottom: 10px;
+  }
+
+  .home:hover {
+    width: 20px;
+    position: absolute;
+    margin-top: -7vh;
+    margin-left: 80vw;
   }
 
   .box1 {
