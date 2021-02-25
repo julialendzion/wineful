@@ -83,8 +83,7 @@ nav {
 .bgpattern {
   position: absolute;
   width: 100vw;
-  margin-top: 60vh;
-  z-index: -1;
+  margin-top: 80vh;
 }
 
 main {
