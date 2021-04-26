@@ -11,7 +11,7 @@ const options = {
   },
 };
 
-//chosing the filtering buttons
+//chosing the filtering buttons, fetching
 document.querySelector("#red").onclick = () => {
   filter("red");
 };
@@ -136,7 +136,7 @@ function product(wine) {
   clone.querySelector("a").href = `product.html?id=${wine._id}`;
 
   //changing the image
-  const imgurl = mediaurl + wine.bottle[0];
+  const imgurl = wine.img_url;
   clone.querySelector(".image").src = imgurl;
   console.log(imgurl);
 
