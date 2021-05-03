@@ -20,10 +20,12 @@ fetch(url, options)
 //changing the content- name, brand, image
 function showProduct(wine) {
   console.log(wine);
-  const imgurl = mediaurl + wine.bottle[0];
+  const imgurl = wine.img_url;
+  document.querySelector(".image").src = imgurl;
+
   document.querySelector(".name").textContent = wine.name;
   document.querySelector(".brand").textContent = wine.brand;
-  document.querySelector(".image").src = imgurl;
+
   document.querySelector(".mood").textContent = wine.mood;
   document.querySelector(".food").textContent = wine.food;
   document.querySelector(".colour").textContent = wine.colour;
