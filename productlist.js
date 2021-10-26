@@ -7,7 +7,7 @@ const mediaurl = "https://kea21-6a0c.restdb.io/media/";
 //The API key
 const options = {
   headers: {
-    "x-apikey": "60339bce5ad3610fb5bb64e6",
+    "x-apikey": "6176a6518597142da1745a51",
   },
 };
 
@@ -69,10 +69,7 @@ document.querySelector("#lowprice").onclick = () => {
 function filter(filter_type) {
   console.log("filering", filter_type);
   document.querySelector("main").innerHTML = "";
-  fetch(
-    `https://kea21-6a0c.restdb.io/rest/wine?max=35&filter=${filter_type}`,
-    options
-  )
+  fetch(`https://kea21-6a0c.restdb.io/rest/wine?max=35&filter=${filter_type}`, options)
     .then(function (response) {
       return response.json();
     })
@@ -84,10 +81,7 @@ function filter(filter_type) {
 function sort(sort_type) {
   console.log("sorting", sort_type);
   document.querySelector("main").innerHTML = "";
-  fetch(
-    `https://kea21-6a0c.restdb.io/rest/wine?max=35&dir=-1&sort=${sort_type}`,
-    options
-  )
+  fetch(`https://kea21-6a0c.restdb.io/rest/wine?max=35&dir=-1&sort=${sort_type}`, options)
     .then(function (response) {
       return response.json();
     })
@@ -99,10 +93,7 @@ function sort(sort_type) {
 function sorting(sort_type) {
   console.log("sorting", sort_type);
   document.querySelector("main").innerHTML = "";
-  fetch(
-    `https://kea21-6a0c.restdb.io/rest/wine?max=35&sort=${sort_type}`,
-    options
-  )
+  fetch(`https://kea21-6a0c.restdb.io/rest/wine?max=35&sort=${sort_type}`, options)
     .then(function (response) {
       return response.json();
     })

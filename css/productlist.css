@@ -3,7 +3,7 @@ html {
   color: #3e3e3e;
 }
 body {
-  background-image: url(/wineful/img/winelistbg.svg);
+  background-image: url(../img/winelistbg.svg);
   background-size: 145%;
   background-position-x: -25vw;
 }
